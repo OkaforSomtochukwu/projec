@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="framework/bootstrap.min.css" />
+  <script src="framework/jquery-3.5.1.min.js"></script>
+  <script src="framework/popper.min.js"></script>
+  <script src="framework/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<style>
+    .hero-content-budget{
+        position: relative;
+        top: 50%;
+        left: 0%;
+    }
+
+    .hero-calc{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 100px;
+        color: #f2f2f2;
+        top: 50%;
+        position: relative;
+    }
+
+    .container2{
+        display: flex;
+        background: #f2f2f2;
+    }
+
+    form{
+        width: 50%;
+        margin: 60px;
+    }
+
+    label{
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    select, input{
+        width: 100%;
+        border: none;
+        height: 50px;
+        margin: 10px 10px 10px 0px;
+    }
+
+    input[type='checkbox']{
+        padding: 20px;
+        height: 20px;
+    }
+
+    .img{
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<body>
+    <div class="nav-container">
+        <div class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Remember<span>That</span></a>
+                <div id="mobile-cta" class="mobile-menu"><i class="fa fa-bars"></i></div>
+
+                <nav>
+                <div id="mobile-exit" class="mobile-menu-exit"><i class="fa fa-times"></i></div>
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="go-premium-cta"><a href="#">Login</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-img">
+            <div class="hero-gradient">
+                <div class="hero-content-budget">
+                    <h1 class="hero-calc">Calculate Your Event</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <form action="">
+            <label for="kind_of_event">Kind of Event</label>
+            <select name="kind_of_event" id="kind_of_event">
+                <option value="0"></option>
+                <option value="1">Birthday Parties</option>
+                <option value="1">Birthday Parties</option>
+                <option value="1">Birthday Parties</option>
+                <option value="1">Birthday Parties</option>
+                <option value="1">Birthday Parties</option>
+            </select>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" placeholder="10/08/2022">
+
+            <label for="nop">Number of People</label>
+            <input type="number" name="nop" id="nop">
+
+            <label for="tof">Type of Food</label>
+            <select name="tof" id="tof">
+                <option value="0">Not required</option>
+            </select>
+
+            <label for="le">Leading Events</label>
+            <select name="le" id="le">
+                <option value="0">Not required</option>
+            </select>
+
+            <label>Additional Services</label>
+
+            
+            <input type="checkbox" name="box" id="box">Musical Services
+        </form>
+        <div class="img">
+            <img src="img/pexels-pixabay-50675.jpg">
+        </div>
+    </div>
+</body>
+</html>

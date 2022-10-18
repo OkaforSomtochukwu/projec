@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Document</title>
+    </head>
+
+    <style>
+        
+
+        .btn{
+            border-radius: 30px;
+            padding: 10px;
+            font-size: 18px;
+            color: #fff;
+            border: none;
+            font-weight: 200;
+            margin: 20px 0 0 50px;
+            cursor: pointer;
+            width: 200px;
+        }
+
+        .hero-service{
+            color: rgb(0, 9, 128);
+        }
+        
+        .btn{
+            font-weight: 600;
+        }
+
+        .member{
+            color: #ffffff;
+            text-align: center;
+            /* padding: 50px 35px ; */
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            /* background: rgba(255, 255, 255, 0.3); */
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            margin: 10px;
+        }
+    </style>
+
+    <body>
+        <!-- =========================NAVBAR=========================== -->
+        <div class="nav-container">
+            <div class="navbar">
+                <div class="container">
+                    <a href="#" class="logo">Remember<span>.events</span></a>
+                    <div id="mobile-cta" class="mobile-menu"><i class="fa fa-bars"></i></div>
+
+                    <nav>
+                    <div id="mobile-exit" class="mobile-menu-exit"><i class="fa fa-times"></i></div>
+                    <ul class="primary-nav">
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="get in touch/NIIT PROJECT/index.html">Contact</a></li>
+                    </ul>
+
+                    <!-- <ul class="secondary-nav">
+                        <li class="go-premium-cta"><a href="#">Login</a></li>
+                    </ul> -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====================HERO SECTION========================= -->
+        <div class="hero-container">
+            <div class="hero-img">
+                <div class="hero-gradient">
+                    <div class="hero-content">
+                        <h1 class="hero-txt">One-Stop <br> Event Planner</h1>
+
+                        <button class="hero-btn hero-about btn">About us</button>
+                        <button class="hero-btn hero-service btn">Our Services</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =================ABOUT-US SECTION======================= -->
+        <div class="about-container container">
+            <div class="cards-container row">
+                <div class="col-md-3 card">
+                    <div class="icon"><img src="img/party-hat.png"></div>
+                    <h1 class="title">Friendly Team</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, soluta! Porro praesentium quia</p>
+                    <a href="#team" class="link">About Us</a>
+                </div>
+
+                <div class="col-md-3 card">
+                    <div class="icon"><img src="img/balloons.png"></div>
+                    <h1 class="title">Perfect Venues</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, soluta! Porro praesentium quia</p>
+                    <a href="gallery.html#venues" class="link">Our Venues</a>
+                </div>
+
+                <div class="col-md-3 card">
+                    <div class="icon"><img src="img/champagne.png"></div>
+                    <h1 class="title">Unique Scenarios</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, soluta! Porro praesentium quia</p>
+                    <a href="gallery.html#parties" class="link">Our parties</a>
+                </div>
+
+                <div class="col-md-3 card">
+                    <div class="icon"><img src="img/confetti.png"></div>
+                    <h1 class="title">Unforgettable Time</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, soluta! Porro praesentium quia</p>
+                    <a href="#testimonial" class="link">Clients Review</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======================== GALLERY ======================= -->
+        <div class="gallery-container">
+                <div class="flex">
+                    <div class="gallery-text">
+                        <h1>Our Gallery</h1>
+                        <a href="gallery.html"><button class="gal-btn btn">View More</button></a>
+                    </div>
+                    <div class="gallery">
+                        <!-- =============== SWIPER GALLERY CARDS =============== -->
+                        <div class="swiper gallery-cards">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <article class="gallery__card">
+                                        <img src="assets/img/img8.jpg" alt="image gallery" class="gallery__img">
+                                        <div class="gallery__data">
+                                            <h3 class="gallery__title">Birthday</h3>
+                                            <span class="gallery__subtitle">Party</span>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <article class="gallery__card">
+                                        <img src="assets/img/img11.jpg" alt="image gallery" class="gallery__img">
+                                        <div class="gallery__data">
+                                            <h3 class="gallery__title">Dinner</h3>
+                                            <span class="gallery__subtitle">Party</span>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <article class="gallery__card">
+                                        <img src="assets/img/img10.jpg" alt="image gallery" class="gallery__img">
+                                        <div class="gallery__data">
+                                            <h3 class="gallery__title">Wedding</h3>
+                                            <span class="gallery__subtitle">Reception</span>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <article class="gallery__card">
+                                        <img src="assets/img/evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="image gallery" class="gallery__img">
+                                        <div class="gallery__data">
+                                            <h3 class="gallery__title">Indoor</h3>
+                                            <span class="gallery__subtitle">Wedding Reception</span>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- =============== SWIPER GALLERY THUMBNAIL =============== -->
+                        <div class="gallery__overflow">
+                            <div class="swiper gallery-thumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="gallery__thumbnail">
+                                            <img src="assets/img/img8.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="swiper-slide">
+                                        <div class="gallery__thumbnail">
+                                            <img src="assets/img/img11.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="swiper-slide">
+                                        <div class="gallery__thumbnail">
+                                            <img src="assets/img/img10.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="gallery__thumbnail">
+                                            <img src="assets/img/evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <!-- Swiper pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                            <!-- Swiper arrows -->
+                            <div class="swiper-button-next">
+                                <i class="ri-arrow-right-line"></i>
+                            </div>
+                            <div class="swiper-button-prev">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- ========================= SWIPER JS ==================== -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!-- =============== MAIN JS =============== -->
+        <script src="assets/js/main.js"></script>
+
+        <!-- ================SERVICES SECTION======================== -->
+        <div class="services">
+            <h1 class="title">Our Services</h1>
+            <div class="sevice-slider">
+                <div class="service-card">
+                    <div class="service-img">
+                        <div class="top">
+                            <div class="icon"></div>
+                            <div class="price"></div>
+                        </div>
+                    </div>
+
+                    <div class="service-text" style="margin: 10px 80px 20px 80px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio maiores dicta molestiae reprehenderit optio cumque, inventore fugiat est officia repudiandae doloribus earum expedita numquam blanditiis dolorum asperiores, labore illum!
+                    </div>
+
+                    <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image-services">
+                                        <img src="img/pexels-fu-zhichao-587741.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Weddings</h2>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image-services">
+                                        <img src="assets/img/sirio-hm3efUMoReg-unsplash.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Birthdays</h2>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image-services">
+                                        <img src="assets/img/md-duran-rE9vgD_TXgM-unsplash.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Office Parties</h2>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image-services">
+                                        <img src="assets/img/teemu-paananen-bzdhc5b3Bxs-unsplash.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Tech Events</h2>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+                </div>
+        </div>
+        
+            
+        <!-- ==============TESTIMONIAL SECTION======================= -->
+        <div class="testimonial" id="testimonial">
+            <h1 class="title">What People Say</h1>
+            <div class="testimonial-slider">
+                <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile1.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile2.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile3.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile4.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile5.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile6.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile7.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile8.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+
+                                <div class="card-image">
+                                    <img src="images/profile9.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================= BLOG ========================= -->
+        <!-- <div class="blog">
+            <h1 class="title">Our News & Events</h1>
+        </div> -->
+
+        <!-- ====================== OUR TEAM ====================== -->
+        <div class="team" id="team">
+            <h1 class="title team-title ">Our Creative Team</h1>
+
+            <div class="members">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/profile2.jpg" alt="">
+                    </div>
+                    <blockquote>
+                        <h1>Devi Vishuakumar,</h1> <br>
+                        Interior Designer, Music expert
+                    </blockquote>
+                </div>
+            
+
+            
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/profile3.jpg" alt="">
+                    </div>
+                    <blockquote>
+                        <h1>Kim Ho Yung</h1><br>
+                        Public Relations Officer
+                    </blockquote>
+                </div>
+            
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/profile6.jpg" alt="">
+                    </div>
+                    <blockquote>
+                        <h1>Andre Lopez</h1><br>
+                        Photographer
+                    </blockquote>
+                </div>
+            
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/profile5.jpg" alt="">
+                    </div>
+                    <blockquote>
+                        <h1>Drea,</h1><br>
+                        CEO
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== CONTACT FORM =================== -->
+        <div class="contact">
+
+        </div>
+        
+        <!-- ======================= FOOTER ====================== -->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="desc">
+                    <div class="foot section">
+                        <h2 class="logo">Events</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium assumenda eum enim quod consequuntur adipisci ex, nostrum voluptas inventore dolores commodi quaerat minus libero labore. Quae temporibus officiis architecto optio?</p>
+                    </div>
+                    <div class="quick-links section">
+                        <h2>Quick-Links</h2>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--info box-->
+                <div class="contact info">
+                    <h3>Contact Info</h3>
+                    <div class="infoBox">
+                        <div>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            <p>NIIT , Ikeja <br>Lagos Nigeria</p>
+                        </div>
+                        <div>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="doyin:doyin@gmail.com">doyin@gmail.com</a>
+                        </div>
+                        <div>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+234 80 9905 6421">+234 80 9905 6421</a>
+                        </div>
+                        <!--social media links -->
+                        <ul class="sci">
+                            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</html>

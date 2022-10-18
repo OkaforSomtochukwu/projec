@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<style>
+    body{
+        background: #fff;
+    }
+
+    .gallery-txt{
+        color: #fff;
+        font-size: 150px;
+    }
+
+    @media (max-width: 500px){
+        .gallery-txt{
+            font-size: 80px;
+        }
+    }
+
+    .hero-container{
+        height: 80vh;
+    }
+
+
+
+    .hero-container{
+    height: 80vh;
+    width: 100%;
+  }
+
+  .hero-gradient{
+    background: linear-gradient(45deg, rgba(17, 5, 177, 0.788), rgba(6, 163, 202, 0.692));
+    height: 80vh;
+  }
+
+  .hero-img{
+    background: url("img/photos-by-lanty-O38Id_cyV4M-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-content{
+    position: relative;
+    top: 10%;
+    left: 10%;
+  }
+
+  .hero-txt{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+    line-gap-override: 10px;
+  }
+
+  .cards-container{
+    background: #f6f6f6;
+  }
+
+  .gal-card{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 05px;
+    margin-right: 05px;
+    overflow: hidden;
+  }
+
+  .gal-card img{
+    border-radius: .4em;
+  }
+
+  gallery__data{
+    background: #fff;
+  }
+
+  .gallery__title, .gallery__subtitle{
+    color: black;
+  }
+
+  .gallery__title-white{
+    color: #fff;
+  }
+
+  h1.heads{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 40%;
+  }
+</style>
+
+<body>
+
+    <div class="nav-container">
+            <div class="navbar">
+                <div class="container">
+                    <a href="#" class="logo">Remember<span>.events</span></a>
+                    <div id="mobile-cta" class="mobile-menu"><i class="fa fa-bars"></i></div>
+
+                    <nav>
+                        <div id="mobile-exit" class="mobile-menu-exit"><i class="fa fa-times"></i></div>
+                        <ul class="primary-nav">
+                            <li class="current"><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="get in touch/NIIT PROJECT/index.html">Contact</a></li>
+                        </ul>
+
+                        <ul class="secondary-nav">
+                            <li class="go-premium-cta"><a href="#">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-img">
+            <div class="hero-gradient">
+                <div class="hero-content">
+                    <h1 class="gallery-txt">Gallery</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OUR PARTIES -->
+    <h1 id="parties" class="heads">OUR PARTIES</h1>
+    <div class="gallery cards-container">
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/blue-white-wedding-aisle-beach-surrounded-by-palms-with-sea-background.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/How to Reallocate Your Wedding Budget during Covid-19.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/bambi-corro-AbLybXyktlk-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/Taekook one shots.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/thomas-william-OAVqa8hQvWI-unsplash.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/My Billionaire Boss - Chapter 73.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/jeremy-wong-weddings-K8KiCHh4WU4-unsplash.jpg" alt="">
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/Green and white, umembeso decor.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title">Indoor</h3>
+                <span class="gallery__subtitle gallery__title">Wedding <span class="gallery__title-white"> Reception </span></span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title">Indoor</h3>
+                <span class="gallery__subtitle gallery__title">Wedding Reception</span>
+            </div>
+        </div>
+
+        
+
+        <div class="gal-card card">
+            <img src="assets/img/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/blue-white-wedding-aisle-beach-surrounded-by-palms-with-sea-background.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/bambi-corro-AbLybXyktlk-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        
+
+        <div class="gal-card card">
+            <img src="assets/img/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/How to Reallocate Your Wedding Budget during Covid-19.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+        </div>
+        
+    </div>
+
+    <!-- OUR VENUES -->
+    <h1 id="venues" class="heads">OUR VENUES</h1>
+    <div class="gallery cards-container">
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/blue-white-wedding-aisle-beach-surrounded-by-palms-with-sea-background.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/How to Reallocate Your Wedding Budget during Covid-19.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/bambi-corro-AbLybXyktlk-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/Taekook one shots.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/thomas-william-OAVqa8hQvWI-unsplash.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/My Billionaire Boss - Chapter 73.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/jeremy-wong-weddings-K8KiCHh4WU4-unsplash.jpg" alt="">
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/Green and white, umembeso decor.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title">Indoor</h3>
+                <span class="gallery__subtitle gallery__title">Wedding <span class="gallery__title-white"> Reception </span></span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title">Indoor</h3>
+                <span class="gallery__subtitle gallery__title">Wedding Reception</span>
+            </div>
+        </div>
+
+        
+
+        <div class="gal-card card">
+            <img src="assets/img/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-black">Indoor</h3>
+                <span class="gallery__subtitle">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/blue-white-wedding-aisle-beach-surrounded-by-palms-with-sea-background.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/bambi-corro-AbLybXyktlk-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        
+
+        <div class="gal-card card">
+            <img src="assets/img/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="assets/img/revolt-rL1u334QqTw-unsplash.jpg" alt="">
+
+            <div class="gallery__data">
+                <h3 class="gallery__title gallery__title-white">Indoor</h3>
+                <span class="gallery__subtitle gallery__title-white">Wedding Reception</span>
+            </div>
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/How to Reallocate Your Wedding Budget during Covid-19.jpg" alt="">
+        </div>
+
+        <div class="gal-card card">
+            <img src="img/children-celebrating-birthday.jpg" alt="">
+        </div>
+        
+    </div>
+
+    <!-- ======================= FOOTER ====================== -->
+    <div class="footer">
+            <div class="footer-container">
+                <div class="desc">
+                    <div class="foot section">
+                        <h2 class="logo">Events</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium assumenda eum enim quod consequuntur adipisci ex, nostrum voluptas inventore dolores commodi quaerat minus libero labore. Quae temporibus officiis architecto optio?</p>
+                    </div>
+                    <div class="quick-links section">
+                        <h2>Quick-Links</h2>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--info box-->
+                <div class="contact info">
+                    <h3>Contact Info</h3>
+                    <div class="infoBox">
+                        <div>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            <p>NIIT , Ikeja <br>Lagos Nigeria</p>
+                        </div>
+                        <div>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                            <a href="doyin:doyin@gmail.com">doyin@gmail.com</a>
+                        </div>
+                        <div>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+234 80 9905 6421">+234 80 9905 6421</a>
+                        </div>
+                        <!--social media links -->
+                        <ul class="sci">
+                            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
